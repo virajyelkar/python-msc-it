@@ -1,15 +1,19 @@
 def get_student_data():
+
     n = int(input("Enter number of students: "))
 
     students = []
 
     for i in range(n):
+
         roll = input("Enter Roll No: ")
         name = input("Enter Name: ")
 
         marks = []
+
         for j in range(5):
-            marks.append(int(input("Enter marks: ")))
+            mark = int(input("Enter marks: "))
+            marks.append(mark)
 
         total = sum(marks)
         percentage = total / 5
@@ -28,3 +32,5 @@ def get_student_data():
             grade = "F"
 
         students.append([roll, name, total, percentage, grade])
+
+    return students
