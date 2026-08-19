@@ -1,5 +1,8 @@
-def display_data():
-    # Display
-    print("\nRank  Roll  Name  Total  Percentage  Grade")
+def display(students):
+
+    print("\nRank\tRoll\tName\tTotal\tPercentage\tGrade")
+
     for s in students:
-        print(s[5], s[0], s[1], s[2], s[3], s[4])
+        print(s[5], "\t", s[0], "\t", s[1], "\t", s[2], "\t", s[3], "\t\t", s[4])
+
+    return students
