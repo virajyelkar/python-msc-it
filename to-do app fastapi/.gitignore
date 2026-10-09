@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database file
+tasks.db
+
+# Editor and tool folders
+.vscode/
+.postman/
